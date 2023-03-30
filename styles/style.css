@@ -1,0 +1,36 @@
+/*2023 Copyright Kim Struve */
+
+/* global */
+global {
+    color: black
+}
+
+/* header*/
+nav.header ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+}
+
+nav.header ul li {
+    display: inline;
+}
+
+/* body */
+aside{
+    text-align: right;
+}
+
+/* footer */
+nav.footer ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+  }
+  
+li.hidelink a {
+        color: black;
+        text-decoration: none;
+}
+
+/*2023 Copyright Kim Struve */

@@ -1,36 +1,114 @@
-/*2023 Copyright Kim Struve  */
+/*2023 Copyright Kim Struve 2315-2 */
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Marck+Script&family=Montserrat:wght@400;700&family=Roboto:wght@700&display=swap');
 
 /* global */
 global {
     color: black
+    background: antiquewhite;
 }
 
+p {
+    color: grey;
+    font-family: 'Dosis';
+    font-weight: bold;
+    text-align: center;
+}
+  
 /* header*/
 nav.header ul {
-    list-style: none;
-    padding: 0;
-    margin-left: 0;
+    background-color: #000 ;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 14px 16px;
+    text-transform: uppercase;
+}
+  
+nav.header ul li {
+    color: #fff;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
 }
 
-nav.header ul li {
-    display: inline;
+li:first-child {
+    display: flex;
+    margin-left: 1.5rem;
+    margin-right: auto;
 }
 
 /* body */
-aside{
-    text-align: right;
+
+/* Hero Section */
+
+/*Hero Title */
+section.hero h1{
+    font-family: 'Montserrat';
+    font-size: 250%;
+    font-weight: bold;
+    line-height: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section.hero h3 {
+    color: rgb(224, 149, 19) ;
+    display: block;
+    font-family: 'Marck Script';
+    font-size: 250%;
+    font-weight:lighter;
+    line-height: 0%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+section.hero img {
+    box-align: right;
+    padding: 0rem;
+}
+
+section.hero article {
+    text-align: center;
+}
+
+/* Hero Columns */
+div.left p {
+    display: float;
+    padding: 0rem;
+    width: 50%;
+}
+
+div.right img {
+    display: float;
+    padding: 0rem;
+    width: 50%;
+}
+
+aside {
+    text-align: center;
 }
 
 /* footer */
 nav.footer ul {
     list-style: none;
-    padding: 0;
     margin-left: 0;
+    padding: 0;
   }
-  
+
+li.about a {
+    color: orange; 
+    font-family: 'Roboto';
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 li.hidelink a {
-        color: black;
-        text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 /*2023 Copyright Kim Struve */

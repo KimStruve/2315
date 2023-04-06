@@ -1,0 +1,87 @@
+body {
+    background: rgb(200,200,200);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: .0rem;            
+}
+
+header, footer {
+    background: rgb(20, 30, 180);
+    color: rgb(150, 200, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: .5rem;            
+}
+
+nav {
+
+}
+
+main {
+    background: rgb(60, 170, 250);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0rem;
+    padding: .5rem;
+}
+
+section {
+    color:  rgb(150, 200, 250);
+    display: flex;
+    padding: 0;
+}
+
+section.left {
+    background: rgb(20, 30, 180);
+    color: rgb(150, 200, 250);
+}
+
+section.hero.top {
+    background: rgb(150, 200, 250);
+    flex-direction: row;
+    padding: 1.5rem;
+}
+
+section.hero {
+    padding: 5.5rem;
+}
+
+section.hero.center {
+    background: rgb(200,200,200);
+    background-position: 2rem;
+    background-size: width-4rem;
+    color: rgb(20, 30, 180);
+
+}
+
+section.hero.bottom {
+    background:  rgb(150, 200, 250);
+}
+
+section.right {
+    background:  rgb(20, 30, 180);
+    color: rgb(150, 200, 250);
+}
+
+div {
+    background: rgb(0, 0, 0);
+    color:  rgb(150, 200, 250);
+    margin: .2rem;
+    padding: .1rem;
+    text-align: center;
+    width: 120px
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+footer {
+    padding: .2rem .5rem;
+}

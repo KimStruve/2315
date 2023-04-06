@@ -5,44 +5,75 @@
 
 /* global */
 global {
-    color: black
-    background: antiquewhite;
+    color: black;
+    background-color: antiquewhite;
 }
 
 p {
     color: grey;
     font-family: 'Dosis';
+    font-size: 1.15rem;
     font-weight: bold;
     text-align: center;
 }
   
-/* header*/
+/* Header*/
+
+/* Navigation */
 nav.header ul {
-    background-color: #000 ;
+    background-color: #000111;
+    cursor: pointer; /* Add a pointer on hover */
+    display: flex;
     list-style-type: none;
     margin: 0;
     overflow: hidden;
     padding: 14px 16px;
     text-transform: uppercase;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    font-family: 'Dosis';
+    font-size: .75rem;
+}
+
+  nav ul {
+    list-style: none;
+    font-weight: lighter;
 }
   
-nav.header ul li {
-    color: #fff;
-    display: inline;
-    text-align: center;
-    text-decoration: none;
+nav.header ul li a {
+    color: antiquewhite;
+    font-family: "Dosis";
+    margin-left: 1rem;
+}
+  nav ul li:first-child {
+    margin-left: 1rem;
+    margin-right: auto;
+    text-decoration: underline;
 }
 
-li:first-child {
-    display: flex;
-    margin-left: 1.5rem;
-    margin-right: auto;
+/* unvisited link */
+a:link {
+    text-decoration-line: none;
 }
+
+/* visited link */
+a:visited {
+    text-decoration-line: none;
+}
+  
+/* mouse over link */
+a:hover {
+    color: lightblue;
+    text-decoration-line: none;
+}
+  
+/* selected link */
+a:active {
+    text-decoration: underline;
+}
+
 
 /* body */
-
 /* Hero Section */
-
 /*Hero Title */
 section.hero h1{
     font-family: 'Montserrat';
@@ -55,7 +86,6 @@ section.hero h1{
 
 section.hero h3 {
     color: rgb(224, 149, 19) ;
-    display: block;
     font-family: 'Marck Script';
     font-size: 250%;
     font-weight:lighter;
@@ -65,29 +95,23 @@ section.hero h3 {
     text-transform: capitalize;
 }
 
-section.hero img {
-    box-align: right;
-    padding: 0rem;
-}
-
 section.hero article {
     text-align: center;
 }
 
 /* Hero Columns */
 div.left p {
-    display: float;
-    padding: 0rem;
-    width: 50%;
+    float: left;
+    padding: 1rem;
 }
 
 div.right img {
-    display: float;
-    padding: 0rem;
-    width: 50%;
+    float: right;
+    padding: 1rem;
 }
 
 aside {
+    font-family: "Dosis";
     text-align: center;
 }
 
@@ -96,17 +120,18 @@ nav.footer ul {
     list-style: none;
     margin-left: 0;
     padding: 0;
+    text-align: center;
   }
 
 li.about a {
     color: orange; 
     font-family: 'Roboto';
-    text-align: right;
-    text-decoration: none;
+    justify-content: center;
+    text-decoration: underline;
     text-transform: uppercase;
 }
 
-li.hidelink a {
+/* li.hidelink a {
     color: black;
     text-decoration: none;
 }

@@ -1,0 +1,32 @@
+/*2023 Copyright Kim Struve 2315-3 */
+
+@mixin dark_theme($dark_theme: DarkGray) {
+    background: $dark_theme;
+    box-shadow: 0 0 1px rgba($dark_theme, .25);
+    color: #fff;
+}
+
+@mixin light_theme($light_theme: LightGray) {
+    background: $light_theme;
+    box-shadow: 0 0 1px rgba($light_theme, .25);
+    color: #000;
+}
+
+@mixin color_heading($heading: #DB8D33) {
+    font-family: 'Marck Script, Arial, san-serif' ;
+    font-size: 24pt;
+    font-style: none;
+}
+
+@mixin primary-button($color) {
+    font-family: 'Times New Roman, Times, serif';
+    background-color: $color;
+    border-radius: 15px;
+    border-style: none;
+    color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+    &:hover {background-color: darken($color, 15%);
+    }
+}
+

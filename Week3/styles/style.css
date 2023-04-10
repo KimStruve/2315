@@ -1,0 +1,139 @@
+/*2023 Copyright Kim Struve 2315-2 */
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Marck+Script&family=Montserrat:wght@400;700&family=Roboto:wght@700&display=swap');
+
+/* global */
+global {
+    color: black;
+    background-color: antiquewhite;
+}
+
+p {
+    color: grey;
+    font-family: 'Dosis';
+    font-size: 1.15rem;
+    font-weight: bold;
+    text-align: center;
+}
+  
+/* Header*/
+
+/* Navigation */
+nav.header ul {
+    background-color: #000111;
+    cursor: pointer; /* Add a pointer on hover */
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 14px 16px;
+    text-transform: uppercase;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    font-family: 'Dosis';
+    font-size: .75rem;
+}
+
+  nav ul {
+    list-style: none;
+    font-weight: lighter;
+}
+  
+nav.header ul li a {
+    color: antiquewhite;
+    font-family: "Dosis";
+    margin-left: 1rem;
+}
+  nav ul li:first-child {
+    margin-left: 1rem;
+    margin-right: auto;
+    text-decoration: underline;
+}
+
+/* unvisited link */
+a:link {
+    text-decoration-line: none;
+}
+
+/* visited link */
+a:visited {
+    text-decoration-line: none;
+}
+  
+/* mouse over link */
+a:hover {
+    color: lightblue;
+    text-decoration-line: none;
+}
+  
+/* selected link */
+a:active {
+    text-decoration: underline;
+}
+
+
+/* body */
+/* Hero Section */
+/*Hero Title */
+section.hero h1{
+    font-family: 'Montserrat';
+    font-size: 250%;
+    font-weight: bold;
+    line-height: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section.hero h3 {
+    color: rgb(224, 149, 19) ;
+    font-family: 'Marck Script';
+    font-size: 250%;
+    font-weight:lighter;
+    line-height: 0%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+section.hero article {
+    text-align: center;
+}
+
+/* Hero Columns */
+div.left p {
+    float: left;
+    padding: 1rem;
+}
+
+div.right img {
+    float: right;
+    padding: 1rem;
+}
+
+aside {
+    font-family: "Dosis";
+    text-align: center;
+}
+
+/* footer */
+nav.footer ul {
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+li.about a {
+    color: orange; 
+    font-family: 'Roboto';
+    justify-content: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/* li.hidelink a {
+    color: black;
+    text-decoration: none;
+}
+
+/*2023 Copyright Kim Struve */

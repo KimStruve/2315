@@ -35,14 +35,14 @@ nav ul {
 }
 
 nav.header ul {
-    background-color: colors.$nav-header-background-color;
+    background-color: colors.$nav-header-background;
     font-family: typography.$nav-header-font;
     font-size: 14px;
 }
 
 nav.header ul li a {
     color: colors.$primary-color;
-    font-family: typography.$nav-header-font;
+    font-family: typography.$nav-font;
     margin-left: 1rem;
 }
   nav ul li:first-child {
@@ -131,7 +131,7 @@ aside {
 
 /* footer */
 nav.footer ul {
-    background-color: colors.$nav-footer-background-color;
+    background-color: colors.$nav-background-color;
     font-family: typography.$nav-footer-font;
 }    
   

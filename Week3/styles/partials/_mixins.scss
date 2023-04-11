@@ -12,8 +12,8 @@
     color: #000;
 }
 
-@mixin theme_heading($theme-heading: $primary-theme-color) {
-    color: $theme-heading
+@mixin theme_heading($theme) {
+    color: $theme;
     font-family: 'Marck Script, Arial, san-serif' ;
     font-size: 24pt;
     font-style: none;

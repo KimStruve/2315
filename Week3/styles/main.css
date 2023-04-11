@@ -415,7 +415,13 @@ section.hero article {
   padding: 1rem;
 }
 
-.right img {
+.right {
+  font-family: "Marck Script, Arial, san-serif";
+  font-size: 24pt;
+  font-style: none;
+}
+
+img {
   float: right;
   padding: 1rem;
   width: 435px;

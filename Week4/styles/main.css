@@ -66,14 +66,13 @@ nav a {
   min-height: 225px;
   display: flex;
 }
-
-.hero-content {
+.hero .hero-content {
   flex-flow: column wrap;
   flex-grow: 1;
   justify-content: center;
   text-align: center;
 }
-.hero-content h1 {
+.hero .hero-content h1 {
   letter-spacing: -1px;
 }
 
@@ -103,14 +102,9 @@ nav a {
   font-size: 95%;
 }
 
-.second {
-  background-color: #9dff00;
-}
-
-.second-a {
+.second .second-a {
   padding: 2em;
 }
-
-.second-b {
+.second .second-b {
   padding: 1.75em;
 }/*# sourceMappingURL=main.css.map */

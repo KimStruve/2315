@@ -1,0 +1,116 @@
+html, body {
+  background: rgb(213, 213, 213);
+  font-family: sans-serif;
+  padding: 1em;
+  color: #414141;
+  height: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #414141;
+}
+
+.hero {
+  background: white;
+  padding: 2em;
+  margin: 1em 0;
+  min-height: 400px;
+}
+
+.hero-content {
+  display: flex;
+}
+
+.main-container {
+  background: rgb(238, 238, 238);
+  padding: 2em;
+  margin: 1em 0;
+}
+
+.mixed-layout {
+  background: white;
+  padding: 2em;
+  margin: 1em 0;
+}
+
+.second-a {
+  background: tomato;
+  color: white;
+  padding: 2em;
+}
+
+.second-b {
+  background: navy;
+  color: white;
+  padding: 2em;
+}
+
+html, body {
+  font-size: 0.75em;
+  line-height: 95%;
+  padding: 0.75em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav a {
+  background: none;
+  font-weight: bold;
+}
+
+.hero {
+  height: 25vh;
+  min-height: 225px;
+  display: flex;
+}
+
+.hero-content {
+  flex-flow: column wrap;
+  flex-grow: 1;
+  justify-content: center;
+  text-align: center;
+}
+.hero-content h1 {
+  letter-spacing: -1px;
+}
+
+.main-container {
+  background: rgb(233, 233, 233);
+  padding: 0.75 1em;
+}
+.main-container h2 {
+  font-size: 1.5em;
+}
+.main-container p {
+  font-size: 0.9em;
+}
+.main-container .sidebar {
+  background-color: white;
+}
+.main-container .sidebar ul {
+  padding: 0 30px;
+}
+
+.mixed-layout {
+  font-size: 0.95em;
+}
+
+.first {
+  line-height: 90%;
+  font-size: 95%;
+}
+
+.second {
+  background-color: #9dff00;
+}
+
+.second-a {
+  padding: 2em;
+}
+
+.second-b {
+  padding: 1.75em;
+}/*# sourceMappingURL=main.css.map */

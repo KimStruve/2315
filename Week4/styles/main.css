@@ -96,15 +96,13 @@ nav a {
 .mixed-layout {
   font-size: 0.95em;
 }
-
-.first {
+.mixed-layout .first {
   line-height: 90%;
   font-size: 95%;
 }
-
-.second .second-a {
+.mixed-layout .second .second-a {
   padding: 2em;
 }
-.second .second-b {
+.mixed-layout .second .second-b {
   padding: 1.75em;
 }/*# sourceMappingURL=main.css.map */

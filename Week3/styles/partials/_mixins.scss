@@ -14,9 +14,14 @@
 
 @mixin theme_heading($theme) {
     color: $theme;
-    font-family: 'Marck Script, Arial, san-serif' ;
+    font-family: typography.$heading-font;    font-family: 'Marck Script, Arial, san-serif' ;
     font-size: 24pt;
     font-style: none;
+    font-weight:lighter;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
 }
 
 @mixin primary-button($color) {

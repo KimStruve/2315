@@ -1,5 +1,9 @@
 /*2023 Copyright Kim Struve 2315-3 */
 
+// @ media (min-width: 40em) and (max-width: 100) {
+//     add stylin for different devices:)
+// }
+
 @use "./vendor/normalize";
 @use "./partials/colors";
 @use "./partials/typography";
@@ -88,14 +92,6 @@ section.hero {
     }
     h3 {
         @include mixins.theme-heading(colors.$primary-theme-color);
-        color: $theme;
-        font-family: typography.$heading-font;
-        font-size: 48px;
-        font-weight:lighter;
-        line-height: 60px;
-        text-align: center;
-        text-decoration: none;
-        text-transform: capitalize;
     }
     article {
         text-align: center;

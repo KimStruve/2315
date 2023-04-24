@@ -11,3 +11,24 @@ $title-font: Montserrat, Arial, sans-serif;;
 $link-font: Roboto, sans-serif;
 $nav-header-font: $title-font;
 $nav-footer-font: $primary-font;
+
+
+colors.css
+/*2023 Copyright Kim Struve 2315-3 */
+
+$primary-color: #e5e5e5;
+$secondary-color: #414141;
+$primary-theme-color: #DB8D33;
+$secondary-theme-color: #575757;
+
+$dark-background: $secondary-color;
+$darker-background: #150300;
+$light-background: $primary-color;
+$nav-header-background-color: $darker-background;
+$nav-footer-background-color: $secondary-color;
+
+$primary-font-color: $secondary-color;
+$secondary-font-color: $secondary-theme-color;
+$title-font-color: $secondary-font-color;
+$nav-font-color: #fff;
+$link-font-color: $primary-theme-color;
